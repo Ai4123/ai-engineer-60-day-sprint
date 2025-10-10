@@ -1,19 +1,10 @@
 import pandas as pd
 
-# Replace 'messy_data.csv' with the actual path to your file
 try:
     df = pd.read_csv('CollegePlacement.csv')
     print("Dataset loaded successfully.")
 except FileNotFoundError:
-    print("Error: Make sure 'CollegePlacement.csv' is in the correct directory.")
-    # Exit or handle the error appropriately
-    # For a placeholder, you might create a small, messy sample DataFrame:
-    data = {'A': [1, 2, 3, None, 5],
-            'B': [5, None, 7, 8, 9],
-            'C': [10, 11, 12, 13, 14]}
-    df = pd.DataFrame(data)
-    print("Using a placeholder DataFrame for demonstration.")
-
+    pass # Added pass to handle the exception
 
 # Display the first few rows and the total number of entries
 print("\nFirst 5 rows of the DataFrame:")

@@ -1,0 +1,11 @@
+empty_tpl = ( )
+Bros = ('Jim', 'Tim', 'Joe')
+Sis = ('Lia', 'Mia', 'Jia')
+Siblings = Bros + Sis
+Siblings = ('Jim', 'Tim', 'Joe', 'Lia', 'Mia', 'Jia')
+Siblings = list(Siblings)
+Siblings[0] = 'father'
+Siblings[1] = 'mom'
+print(Siblings)
+family_members = tuple(Siblings)
+print(family_members)

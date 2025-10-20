@@ -1,0 +1,6 @@
+it_companies = set()
+len(it_companies)
+it_companies.add('Twitter')
+it_companies.update(['Amazon', 'Google', 'X'])
+it_companies.pop()
+If item is not in set, remove() method will raise errors. so use discard() instead. both means to remove the item from a set.

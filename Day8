@@ -1,0 +1,24 @@
+empt_dct = {}
+dog = {'name': 'Yoda',
+       'color': 'Brown',
+       'breed': 'Beagle',
+       'legs': '4',
+       'age': '5'}
+stu_dct = {'first_name': 'John',
+           'last_name': 'Tho',
+           'gender': 'M',
+           'age': '22',
+           'marital status': 'Unmarried',
+           'skills': 'Fighter',
+           'country': 'Italy',
+           'city': 'Rome',
+           'address': '88 st '}
+print(len(stu_dct))
+keys = stu_dct.keys()
+print(keys)
+stu_dct['city'] = 'Amalfi'
+print(stu_dct)
+values = stu_dct.values()
+print(stu_dct.items())
+print(stu_dct.clear())
+del dog

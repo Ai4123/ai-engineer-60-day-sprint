@@ -1,0 +1,72 @@
+# 1. Iterate 0 to 10 using for loop and while loop
+
+# Using for loop
+print("1. For loop from 0 to 10:")
+for i in range(11):
+    print(i, end=" ")
+print("\n")
+
+# Using while loop
+print("1. While loop from 0 to 10:")
+i = 0
+while i <= 10:
+    print(i, end=" ")
+    i += 1
+print("\n")
+
+# 2. Iterate from 10 to 0 using a for loop and a while loop
+
+# Using a for loop
+print("2. For loop from 10 to 0:")
+for i in range(10, -1, -1):
+    print(i, end=" ")
+print("\n")
+
+# Using a while loop
+print("2. While loop from 10 to 0:")
+i = 10
+while i >= 0:
+    print(i, end=" ")
+    i -= 1
+print("\n")
+
+# 3. Print triangle pattern
+print("3. Triangle pattern:")
+for i in range(1, 8):
+    print("#" * i)
+print()
+
+# 4. Nested loops for 8x8 pattern
+print("4. 8x8 hash pattern:")
+for i in range(8):
+    for j in range(8):
+        print("#", end=" ")
+    print()
+print()
+
+# 5. Multiplication pattern
+print("5. Multiplication table (n x n = n²):")
+for i in range(11):
+    print(f"{i} x {i} = {i * i}")
+print()
+
+# 6. Iterate through the list of strings
+print("6. Iterate through list items:")
+languages = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask']
+for lang in languages:
+    print(lang)
+print()
+
+# 7. Print even numbers from 0 to 100
+print("7. Even numbers from 0 to 100:")
+for i in range(101):
+    if i % 2 == 0:
+        print(i, end=" ")
+print("\n")
+
+# 8. Print odd numbers from 0 to 100
+print("8. Odd numbers from 0 to 100:")
+for i in range(101):
+    if i % 2 != 0:
+        print(i, end=" ")
+print()
